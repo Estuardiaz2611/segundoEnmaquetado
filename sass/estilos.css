@@ -1,0 +1,78 @@
+#rojo {
+  background: red;
+}
+#verde {
+  background-color: green;
+}
+#negro {
+  background-color: black;
+}
+#azul {
+  background-color: blue;
+}
+#blanco {
+  background-color: white;
+}
+#up {
+  background-color: #01a884;
+}
+body {
+  background-color: #a07979;
+  font-family: "Open Sans";
+  justify-content: center;
+  margin: 0;
+  font-size: 12px;
+  padding: 0;
+}
+img {
+  width: 5rem;
+  height: 5.5rem;
+}
+input {
+  width: 18rem;
+  height: 1.5rem;
+  border-radius: 8px;
+}
+.main-navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-width: 578px;
+  background-color: #1aa16e;
+}
+.main-navbar .i-nav {
+  font-size: 2.5rem;
+  color: #4ae6e6;
+}
+.main-navbar .main-navbar__head-one {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.main-navbar .main-navbar__head-one .main-navbar__head-one__one {
+  background-color: white;
+  margin-left: 1rem;
+  border-radius: 8px;
+}
+.main-navbar .main-navbar__head-two {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.main-navbar .main-navbar__head-two table .table__i-one {
+  font-size: 1rem;
+  color: #4ae6e6;
+}
+.main-navbar .main-navbar__head-two table .table__p {
+  color: #4ae6e6;
+}
+.main-navbar .main-navbar__head-two table .table__i {
+  font-size: 1.5rem;
+  color: white;
+}
