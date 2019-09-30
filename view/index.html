@@ -8,71 +8,228 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
-    <link rel="stylesheet" href="../font/fontello-0e14f9ed/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-e16785dd/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-7d2ccad6/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-3577ac03/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-a9e04da2/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-4ecd1bb6/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-3ccba400/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-d9c91697/css/fontello.css">
-    <link rel="stylesheet" href="../font/fontello-6d5a105c/css/fontello.css">
+    <!--<link rel="stylesheet" href="../font/fontello-e16785dd/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-9e7e823c/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-708ec5ed/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-004bb357/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-f68a23fa/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-63b214f9/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-7c9153ca/css/fontello.css">-->
+    <link rel="stylesheet" href="../font/fontello-dbf9097f/css/fontello.css">
+    <link rel="stylesheet" href="../font/fontello-d027f459/css/fontello.css">
+   <link rel="stylesheet" href="../font/fontello-31d05a21/css/fontello.css">
     <title>Mis Cursos</title>
 </head>
-<!--++++++++++++++++++++Navbar+++++++++++++++++++++++++++++++-->
 
 <body>
+    <!--++++++++++++++++++++Navbar+++++++++++++++++++++++++++++++-->
     <div class="cont-up" id="rojo">
         <div class="main-navbar">
             <i class="fa fa-plane icon-paper-plane-empty i-nav"></i>
             <div class="main-navbar__head-one" id="up">
-                <input type="text" placeholder="Busca estudiantes, padres o maestros aqui..">
-                <i class="fa fa-find icon-search head-two__i-one"></i>
+                <div class="div">
+                    <input class="div__input" type="text" placeholder="Busca estudiantes, padres o maestros aqui..">
+                    <button class="div__button"><i class="fa icon-search"></i></button>
+                </div>
             </div>
             <div class="main-navbar__head-two" id="up">
                 <div class="main-navbar__head-one__one">
-                    <i class="fa fa-bell icon-bell-alt head-two__i-one"></i>
-                    <i class="fa fa-user icon-user head-two__i"></i>
-                    <label class="head-two__p">Iris Lucrecia Supervisor</label>
-                    <i class="fa fa-cog icon-cog head-two__i-one"></i>
-                    <i class="fa fa-down-dir icon-down-dir head-two__i-one"></i>
+                    <i class="fa fa-bell icon-bell-alt head-two__i-one__one"></i>
+                </div>
+                <div class="main-navbar__head-one__one">
+                    <i class="fa fa-user icon-user-circle head-two__i"></i>
+                </div>
+                <div class="main-navbar__head-one__one">
+                    <label class="head-two__p">Iris Lucrecia</label><br>
+                    <label class="head-two__p-two">Supervisor</label>
+                </div>
+                <div class="main-navbar__head-one__one">
+                    <i class="fa fa-cog icon-cog head-two__i-one__three"></i>
+                    <i class="fa fa-down-dir icon-sort-down head-two__i-one__two"></i>
                 </div>
             </div>
         </div>
     </div>
+    <!--++++++++++++++++++++Navbar Left+++++++++++++++++++++++++++++++-->
     <div class="cont-left" id="rojo">
-        <i class="fa fa-home icon-home i-nav-left"></i>
-        <i class="fa fa-book icon-book i-nav-left"></i>
+        <div class="cont-left__one">
+            <i class="fa fa-home icon-home i-nav-left"></i>
+        </div>
+        <div class="cont-left__one">
+            <i class="fa fa-book icon-book-1 i-nav-left__one"></i>
+        </div>
+        <div class="cont-left__one">
+            <i class="fa fa-calendar icon-calendar-empty i-nav-left__one"></i>
+        </div>
+        <div class="cont-left__one">
+            <i class="fa fa-docs icon-docs i-nav-left__one"></i>
+        </div>
+        <div class="cont-left__one">
+            <i class="fa fa-users icon-users i-nav-left__one"></i>
+        </div>
+        <div class="cont-left__one">
+            <i class="fa fa-logout icon-login i-nav-left__one"></i>
+        </div>
     </div>
-    <div class="body__cont-center" id="up">
-        <div class="body__cont-center__one" id="azul">
-            <i class="fa fa-book icon-book i-nav-left"></i>
+    <!--++++++++++++++++++++CONTENEDOR MEDIO+++++++++++++++++++++++++++++++-->
+    <div class="body__cont-center" id="cuerpo">
+        <!--++++++++++++++++++++PART ONE+++++++++++++++++++++++++++++++-->
+        <!--++++++++++++++++++++TITULO+++++++++++++++++++++++++++++++++-->
+        <div class="body__cont-center__one" id="blanco">
+            <i class="fa fa-book icon-book-1 i-nav-left__book"></i>
             <label class="label-titulos">Mis Cursos</label>
         </div>
-        <div class="body__cont-center__two" id="verde">
+        <!--++++++++++++++++++++PART TWO+++++++++++++++++++++++++++++++-->
+        <!--++++++++++++++++++++SUB LABEL+++++++++++++++++++++++++++++++-->
+        <div class="body__cont-center__two" id="blanco">
             <div class="body__cont-center__two__subs">
-                <p>Mis Cursos(500)</p>
+                <p><b>Mis Cursos (500)</b></p>
+                <hr class="hr">
             </div>
-            <div class="body__cont-center__two__subs">
-                <p>Supervisados(500)</p>
+            <div class="body__cont-center__two__subs__one">
+                <p><b>Supervisados</b> (500)</p>
             </div>
-            <div class="body__cont-center__two__subs">
-                <p>Todos(500)</p>
+            <div class="body__cont-center__two__subs__one">
+                <p><b>Todos</b> (500)</p>
             </div>
         </div>
-    </div>
-    <div class="body__cont-center__three" id="azul">
-        <div class=" card" id="verde">
-            <p>asdasdasdasd</p>
+        <!--++++++++++++++++++++PART THREE+++++++++++++++++++++++++++++++-->
+        <!--++++++++++++++++++++INPUT+++++++++++++++++++++++++++++++-->
+        <div class="container__input" id="cuerpo">
+            <div class="body__cont-center__input" id="cuerpo">
+                <div class="div-two">
+                    <input class="div-two__input" type="text" placeholder="Todos los niveles">
+                    <button class="div-two__button"><i class="fa icon-down-open"></i></button>
+                </div>
+                <div class="div-two">
+                    <input class="div-two__input" type="text" placeholder="Todos los grados">
+                    <button class="div-two__button"><i class="fa icon-down-open"></i></button>
+                </div>
+                <div class="div-two__one" id="cuerpo">
+                    <input class="div-two__one__input" type="text" placeholder="Busca el curso aqui..">
+                    <button class="div-two__one__button"><i class="fa icon-search"></i></button>
+                </div>
+            </div>
         </div>
-        <div class="card" id="blanco">
-            <p>asdasdasdasd</p>
-        </div>
-        <div class="card" id="blanco">
-            <p>asdasdasdasd</p>
-        </div>
-        <div class="card" id="blanco">
-            <p>asdasdasdasd</p>
+        <!--++++++++++++++++++++PART FOUR+++++++++++++++++++++++++++++++-->
+        <!--++++++++++++++++++++INICIO DE CARD+++++++++++++++++++++++++++++++-->
+        <div class="container__Card-center" id="cuerpo">
+            <div class="card" id="blanco">
+                <div class="card__head" id="verde">
+                    <div class="card__head__one" id="verde">
+                        <label class="card__h1">Pre Lectura</label><br>
+                        <p class="card__p">Nursery Preprimaria "A"</p>
+                        <i class="fa fa-bold icon-bold card__icon__one"></i>
+                    </div>
+                </div>
+                <div class="card__icon" id="verde-ligth">
+                    <div class="cont__icon-card">
+                        <i class="fa fa-plane icon-paper-plane-empty i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-users icon-users i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                </div>
+                <div class="card__cont" id="blanco">
+                    <p class="card__medio">No hay actividades <br>para hoy.</p>
+                    <i class="fa icon-snapchat-ghost card__medio-one"></i>
+                </div>
+            </div>
+            <!--++++++++++++++++++++FIN DE CARD+++++++++++++++++++++++++++++++-->
+            <!--++++++++++++++++++++INICIO DE CARD+++++++++++++++++++++++++++++++-->
+            <div class=" card" id="blanco">
+
+                <div class="card__head" id="rojo-f">
+                    <div class="card__head__one" id="rojo-f">
+                        <label class="card__h1">Matematica</label><br>
+                        <p class="card__p">Nursery Preprimaria "A"</p>
+                        <i class="fa fa-superscript icon-superscript card__icon__one"></i>
+                    </div>
+                </div>
+                <div class="card__icon" id="rojo-ligth">
+                    <div class="cont__icon-card-one">
+                        <i class="fa fa-plane icon-paper-plane-empty i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-one">
+                        <i class="fa fa-users icon-users i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-one">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-one">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                </div>
+                <div class="card__cont" id="blanco">
+                    <p class="card__medio">No hay actividades <br>para hoy.</p>
+                    <i class="fa icon-snapchat-ghost card__medio-one"></i>
+                </div>
+            </div>
+            <!--++++++++++++++++++++FIN DE CARD+++++++++++++++++++++++++++++++-->
+            <!--++++++++++++++++++++INICIO DE CARD+++++++++++++++++++++++++++++++-->
+            <div class="card" id="blanco">
+                <div class="card__head" id="morado">
+                    <div class="card__head__one" id="morado">
+                        <label class="card__h1">Madurez Motora</label><br>
+                        <p class="card__p">Nursery Preprimaria "A"</p>
+                        <i class="fa fa-puzzle icon-puzzle card__icon__one"></i>
+                    </div>
+                </div>
+                <div class="card__icon" id="morado-ligth">
+                    <div class="cont__icon-card-two">
+                        <i class="fa fa-plane icon-paper-plane-empty i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-two">
+                        <i class="fa fa-users icon-users i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-two">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card-two">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                </div>
+                <div class="card__cont" id="blanco">
+                    <p class="card__medio">No hay actividades <br>para hoy.</p>
+                    <i class="fa icon-snapchat-ghost card__medio-one"></i>
+                </div>
+            </div>
+            <!--++++++++++++++++++++FIN DE CARD+++++++++++++++++++++++++++++++-->
+            <!--++++++++++++++++++++INICIO DE CARD+++++++++++++++++++++++++++++++-->
+            <div class="card" id="blanco">
+                <div class="card__head" id="verde">
+                    <div class="card__head__one" id="verde">
+                        <label class="card__h1">Pre Lectura</label><br>
+                        <p class="card__p">Nursery Preprimaria "A"</p>
+                        <i class="fa fa-bold icon-bold card__icon__one"></i>
+                    </div>
+                </div>
+                <div class="card__icon" id="verde-ligth">
+                    <div class="cont__icon-card">
+                        <i class="fa fa-plane icon-paper-plane-empty i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-users icon-users i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                    <div class="cont__icon-card">
+                        <i class="fa fa-docs icon-docs i-nav-left__card"></i>
+                    </div>
+                </div>
+                <div class="card__cont" id="blanco">
+                    <p class="card__medio">No hay actividades <br>para hoy.</p>
+                    <i class="fa icon-snapchat-ghost card__medio-one"></i>
+                </div>
+            </div>
+            <!--++++++++++++++++++++FIN DE CARD+++++++++++++++++++++++++++++++-->
         </div>
     </div>
 </body>
