@@ -271,11 +271,19 @@ hr {
   display: flex;
   justify-content: flex-start;
 }
-.cont-up .main-navbar .main-navbar__head-one .main-navbar__head-one__one {
-  background-color: white;
-  margin-right: 2rem;
-  text-align: center;
-  border-radius: 8px;
+.cont-up .main-navbar .main-navbar__head-one__one {
+  display: flex;
+  flex-wrap: wrap;
+  height: 3.2rem;
+  align-items: center;
+  border-right: 1px solid #01a6a1;
+}
+.cont-up .main-navbar .main-navbar__head-one__two {
+  display: flex;
+  flex-wrap: wrap;
+  height: 3.2rem;
+  align-items: center;
+  border-left: 1px solid #01a6a1;
 }
 .cont-up .main-navbar .main-navbar__head-two {
   align-content: center;
